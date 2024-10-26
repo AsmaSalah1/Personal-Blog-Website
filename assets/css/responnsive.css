@@ -1,0 +1,121 @@
+@media screen and (min-width: 300px) and (max-width: 970px) {
+    
+    .navbar{
+        gap: 2px;
+        flex-wrap: wrap;
+       margin: auto;
+        justify-content: center;
+    }
+   
+    .navbar a {
+        padding: 10px;
+        font-size: 14px;
+      }
+    .header .container {
+        padding: 9px;
+        /* margin-top: 20px; */
+    }
+    /* Home sec */
+    .home{
+        grid-template-columns: 0.5fr 1.5fr 0.5fr;
+        margin-top: 60px;
+    }
+    .home .container{
+        width: calc( 100% - 20%);
+    grid-area: 2/2/2/2;
+    margin: auto;
+    }
+    .home .container .hedding{
+        padding:90px 50px ;
+        height: 100px;
+        display: grid;
+    }
+      .aboutMe {
+        flex-direction: column;
+        align-items: center;
+      }
+  
+      .contact1,
+      .icons {
+        flex-direction: column;
+        gap: 5px;
+      }
+   /* About me sec */
+   
+
+.aboutMe .container .row{
+    /* height: 500px; */
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+.container .card1{
+margin: auto;
+    padding: 20px;
+    width: 270px;
+}
+.container .card2{
+    padding: 20px;
+    width: 270px;
+    margin: auto;
+}
+
+.card2 .myInformation  .blockquote1{
+    font-size: 18px;
+     word-spacing: 0px;
+}
+.card2 .myInformation .contact0 svg{
+    width: 20px;
+    height: 20px;
+}
+
+.card2 .myInformation .icons{
+    display: inline-block;
+    margin-top: 2.5em;
+    
+}
+.card2 .myInformation .icons a{
+  display: inline;
+  margin-right: 10px;
+}
+.card2 .myInformation .icons svg{
+    width: 35px;
+    height: 35px;
+}
+    }
+
+
+
+    @media screen and (min-width: 300px) and (max-width: 800px) {
+        footer{
+                       width:100%;
+        }
+        footer p{
+            font-size: 18px;
+        }
+    }
+  
+    @media screen and (min-width: 300px) and (max-width: 1200px) {    
+        
+          
+    }
+    
+    @media screen and (max-width: 800px) {
+      
+    
+     
+    }
+     /* إعدادات للشاشات الصغيرة */
+
+     @media (max-width: 768px) {
+        .description{
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+    @media (min-width: 1066px) {
+        .description{
+            font-size: 17px;
+            font-weight: 600;
+        }
+    }

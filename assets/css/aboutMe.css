@@ -1,0 +1,71 @@
+@import url(/assets/css/main.css);
+.aboutMe{
+    margin: 90px 0 90px 0;
+}
+.aboutMe .container{
+    width: calc( 100% - 20%);
+margin: auto;
+/* background-color: aquamarine; */
+}
+.aboutMe .container .row{
+    /* height: 500px; */
+    gap: 30px;
+    justify-content: space-between;
+}
+.container .card1{
+display: flex;
+flex-direction: column;
+    padding: 30px;
+    width: calc( ( ( 100% - 20% ) / 2 )  );
+    border: 1px solid #c5b5b5;
+    height: 480px;
+    /* margin: auto; */
+    /* justify-content: center; */
+}
+.container .card2{
+    height: 480px;
+    display: flex;
+flex-direction: column;
+    padding: 30px;
+    width: calc( ( ( 100% - 20% ) / 2 )  );
+    border: 1px solid #c5b5b5;
+}
+img{
+margin: auto;
+width: 100%;
+height: 100%;
+}
+.card2 .myInformation .contact0{
+    margin-block-start: 3em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.card2 .myInformation  .blockquote1{
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     word-spacing: 1px;
+     /* text-align: justify; */
+}
+.card2 .myInformation .contact0 svg{
+    width: 30px;
+    height: 30px;
+}
+.card2 .myInformation .contact0  span{
+    vertical-align: super;
+
+}
+.card2 .myInformation .icons{
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card2 .myInformation .icons svg{
+    width: 35px;
+    height: 35px;
+}

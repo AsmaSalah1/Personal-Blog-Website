@@ -1,0 +1,26 @@
+@import url(main.css);
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(204, 191, 214);
+  margin-top: 100px;
+  margin-bottom: 0;
+
+}
+
+footer .coloumn1a {
+  display: flex;
+flex-direction: column;
+  
+}
+footer .com {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+footer p {
+  font-size: 20px;
+}
